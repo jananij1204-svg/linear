@@ -1,4 +1,4 @@
-#  Cafe Shop Sales Prediction using Linear Regression
+# ☕ Cafe Shop Sales Prediction using Linear Regression
 
 This project analyzes cafe shop sales data and builds a **Linear Regression model** to predict **Total Sales** based on various features such as date-related factors, quantity sold, and other operational variables.
 
@@ -6,7 +6,7 @@ The goal is to understand **key drivers of revenue** and provide **actionable bu
 
 ---
 
-##  Project Overview
+## 📌 Project Overview
 
 * Performed **Exploratory Data Analysis (EDA)** on cafe sales data
 * Engineered **date-based features** (day of year, week, quarter, etc.)
@@ -17,7 +17,7 @@ The goal is to understand **key drivers of revenue** and provide **actionable bu
 
 ---
 
-##  Technologies Used
+## 🛠️ Technologies Used
 
 * **Python**
 * **Pandas & NumPy** – Data manipulation
@@ -27,7 +27,7 @@ The goal is to understand **key drivers of revenue** and provide **actionable bu
 
 ---
 
-##  Dataset
+## 📂 Dataset
 
 * Source: Excel file (`cafe_sales_dataset.xlsx`)
 * Sheet used: `Cafe_Sales_Data`
@@ -43,7 +43,7 @@ The goal is to understand **key drivers of revenue** and provide **actionable bu
 
 ---
 
-##  Key Steps
+## 🔍 Key Steps
 
 ### 1. Data Preprocessing
 
@@ -75,7 +75,7 @@ Metrics used:
 
 ---
 
-##  Visualizations
+## 📊 Visualizations
 
 * Sales distribution histogram
 * Feature correlation plots
@@ -86,7 +86,7 @@ Metrics used:
 
 ---
 
-##  Key Insights
+## 🧠 Key Insights
 
 * Coffee and food item sales are major revenue drivers
 * Machine issues and poorly performing promotions negatively impact sales
@@ -95,7 +95,7 @@ Metrics used:
 
 ---
 
-##  Saved Files
+## 💾 Saved Files
 
 The following files are generated after training:
 
@@ -106,12 +106,12 @@ The following files are generated after training:
 
 ---
 
-##  How to Run
+## 🚀 How to Run
 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/jananij1204-svg/Linear.git
+git clone https://github.com/your-username/your-repo-name.git
 ```
 
 2. Install dependencies
@@ -134,6 +134,22 @@ python cafe_shop_sales_linear_regression_own1.py
 * Hyperparameter tuning
 * Handle outliers more robustly
 * Deploy model using Flask or Streamlit
+
+---
+
+## 🌐 Streamlit App
+
+An interactive **Streamlit web application** has been built on top of this model to allow users to predict cafe shop sales in real time.
+
+🔗 **Live App:** [https://linear-2fp8hv9glafdvec4mpdyq.streamlit.app](https://linear-2fp8hv9glafdvec4mpdyq.streamlit.app)
+
+### 📸 App Screenshots
+
+#### App Home – CSV Upload
+
+<img width="1920" height="1080" alt="Screenshot 2026-02-06 155406" src="https://github.com/user-attachments/assets/826acae2-1496-4738-92a7-1f79757483fa" />
+<img width="1920" height="1080" alt="Screenshot 2026-02-06 155456" src="https://github.com/user-attachments/assets/4aa64fc4-f8bc-4e85-aa09-1096a350c6ef" />
+<img width="1920" height="1080" alt="Screenshot 2026-02-06 155528" src="https://github.com/user-attachments/assets/75800bef-5bb4-491e-b72c-e9d8d78b6347" />
 
 ---
 
